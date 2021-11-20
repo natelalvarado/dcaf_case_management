@@ -2221,7 +2221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"all-contributors-cli@npm:^6.20.0":
+"all-contributors-cli@npm:6.20.0":
   version: 6.20.0
   resolution: "all-contributors-cli@npm:6.20.0"
   dependencies:
@@ -4365,7 +4365,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^4.1.1":
+"enhanced-resolve@npm:^4.1.1, enhanced-resolve@npm:^4.5.0":
   version: 4.5.0
   resolution: "enhanced-resolve@npm:4.5.0"
   dependencies:
@@ -4373,17 +4373,6 @@ __metadata:
     memory-fs: ^0.5.0
     tapable: ^1.0.0
   checksum: 4d87488584c4d67d356ef4ba04978af4b2d4d18190cb859efac8e8475a34d5d6c069df33faa5a0a22920b0586dbf330f6a08d52bb15a8771a9ce4d70a2da74ba
-  languageName: node
-  linkType: hard
-
-"enhanced-resolve@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "enhanced-resolve@npm:4.3.0"
-  dependencies:
-    graceful-fs: ^4.1.2
-    memory-fs: ^0.5.0
-    tapable: ^1.0.0
-  checksum: aaef4c07e7288d67cfd4ed2dad16a5e8a175bb45eaf91f7c9f0d7c1186577f78047452a9d8d5d136473c30c769b7a322c1bf837ccf7f5c6fbde3266d043a633c
   languageName: node
   linkType: hard
 
@@ -6597,7 +6586,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"jquery@npm:>=1.8.0 <4.0.0, jquery@npm:^3.6.0":
+"jquery@npm:3.6.0, jquery@npm:>=1.8.0 <4.0.0":
   version: 3.6.0
   resolution: "jquery@npm:3.6.0"
   checksum: 8fd5fef4aa48fd374ec716dd1c1df1af407814a228e15c1260ca140de3a697c2a77c30c54ff1d238b6a3ab4ddc445ddeef9adce6c6d28e4869d85eb9d3951c0e
@@ -8342,7 +8331,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"popper.js@npm:^1.16.0":
+"popper.js@npm:1.16.1":
   version: 1.16.1
   resolution: "popper.js@npm:1.16.1"
   checksum: c56ae5001ec50a77ee297a8061a0221d99d25c7348d2e6bcd3e45a0d0f32a1fd81bca29d46cb0d4bdf13efb77685bd6a0ce93f9eb3c608311a461f945fffedbe
@@ -9765,20 +9754,20 @@ fsevents@~2.3.2:
   dependencies:
     "@fortawesome/fontawesome-free": 5.15.4
     "@rails/webpacker": 5.4.3
-    all-contributors-cli: ^6.20.0
+    all-contributors-cli: 6.20.0
     bootstrap: 4.6.1
     eslint: 8.2.0
     eslint-config-airbnb-base: 15.0.0
     eslint-plugin-import: 2.25.3
-    jquery: ^3.6.0
+    jquery: 3.6.0
     jquery-ui: 1.13.0
-    popper.js: ^1.16.1
+    popper.js: 1.16.1
     set-value: 4.1.0
-    stupid-table-plugin: ^1.1.3
-    turbolinks: ^5.2.0
-    webpack: ^4.46.0
-    webpack-cli: ^3.3.12
-    webpack-dev-server: ^3
+    stupid-table-plugin: 1.1.3
+    turbolinks: 5.2.0
+    webpack: 4.46.0
+    webpack-cli: 3.3.12
+    webpack-dev-server: 3.11.3
   languageName: unknown
   linkType: soft
 
@@ -10632,7 +10621,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"stupid-table-plugin@npm:^1.1.3":
+"stupid-table-plugin@npm:1.1.3":
   version: 1.1.3
   resolution: "stupid-table-plugin@npm:1.1.3"
   peerDependencies:
@@ -10989,7 +10978,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"turbolinks@npm:^5.2.0":
+"turbolinks@npm:5.2.0":
   version: 5.2.0
   resolution: "turbolinks@npm:5.2.0"
   checksum: df393c321ed19d9761e632ff357d3cb032a9ca32c07f1ef8202e5f5bb9d17fcc93cdec0d9dfcf0fbca56c373a9dffa2c151639383e663a72897ae434a877819b
@@ -11328,7 +11317,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:^3.3.12":
+"webpack-cli@npm:3.3.12, webpack-cli@npm:^3.3.12":
   version: 3.3.12
   resolution: "webpack-cli@npm:3.3.12"
   dependencies:
@@ -11366,7 +11355,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^3":
+"webpack-dev-server@npm:3.11.3":
   version: 3.11.3
   resolution: "webpack-dev-server@npm:3.11.3"
   dependencies:
@@ -11434,9 +11423,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"webpack@npm:^4.0.0":
-  version: 4.44.2
-  resolution: "webpack@npm:4.44.2"
+"webpack@npm:4.46.0":
+  version: 4.46.0
+  resolution: "webpack@npm:4.46.0"
   dependencies:
     "@webassemblyjs/ast": 1.9.0
     "@webassemblyjs/helper-module-context": 1.9.0
@@ -11446,7 +11435,7 @@ fsevents@~2.3.2:
     ajv: ^6.10.2
     ajv-keywords: ^3.4.1
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^4.3.0
+    enhanced-resolve: ^4.5.0
     eslint-scope: ^4.0.3
     json-parse-better-errors: ^1.0.2
     loader-runner: ^2.4.0
@@ -11468,7 +11457,7 @@ fsevents@~2.3.2:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 3d42ee6af7a0ff14fc00136d02f4a36381fd5b6ad0636b95a8b83e6d99bc7e02f888f4994c095ae986e567033fe7bb1d445e27afe49d2872b8fe5c3a57d20de6
+  checksum: 013fa24c00d4261e16ebca60353fa6f848e417b5a44bdf28c16ebebd67fa61e960420bb314c8df05cfe2dad9b90efabcf38fd6875f2361922769a0384085ef1e
   languageName: node
   linkType: hard
 
