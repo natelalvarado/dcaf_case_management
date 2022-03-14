@@ -34,6 +34,7 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo bash - && \
 RUN npm install -g yarn
 RUN yarn set version berry
 RUN yarn set version 2.x
+RUN bundle config build.libv8-node --with-system-v8
 
 # install gemfile and package
 RUN bundle install
@@ -64,3 +65,4 @@ RUN ahab_dep=${AHAB_DEPENDENCIES} && \
 COPY . ${DARIA_DIR}
 
 EXPOSE 3000
+
